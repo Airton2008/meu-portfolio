@@ -3,17 +3,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,576;1,576&family=Oswald:wght@200..700&display=swap');
 
 :root {
-    --cor-principal: #068EB0;
-    --cor-secundaria: #002753;
-    --cor-destaque: #e503ce;
+    --cor-principal: #11a7cc;
+    --cor-secundaria: #020969;
+    --cor-destaque: #ae26ec;
 }
 
-body {
-font-family: "Oswald", sans-serif;}
+body, div.card-body {
+font-family: "Oswald", sans-serif;
+color: var(--cor-principal);
+background-color: #FFF2B8;}
 
 h1, h2, h5 {
     color: var(--cor-secundaria);
     font-weight: 850;
+}
+
+.lead {
+  color: var(--cor-destaque);
+  font-weight: 700;
 }
 
 footer a, p {
@@ -22,4 +29,13 @@ footer a, p {
 
 footer a:hover {
     color: var(--cor-destaque);
+}
+
+a,
+.btn-link:hover {
+  color: var(--cor-destaque);
+}
+
+a:hover {
+  color: var(--cor-destaque);
 }
