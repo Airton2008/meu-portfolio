@@ -16,7 +16,7 @@
 
 <body>
   <header class="container text-center">
-    <img src="img/perfil 2.png" alt="Airton" class="rounded-circle" width="150" height="150" srcset="" />
+    <img src="img/perfil 2.jpg" alt="Airton" class="rounded-circle" width="150" height="150" srcset="" />
     <p  class="lead">Eu sou o Airton</p>
     <h1>programador amador</h1>
     <p>sou estudante da escola maria de lourdes e estudo programação pelo alura</p>
@@ -81,10 +81,32 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Como gostaria de Ver?</h5>
+          <h5 class="modal-title">SandroCurioflix</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-
+<div class="modal-body">
+        <p>
+          O código usa três linguagens principais: HTML, CSS e um pouco de JavaScript (embutido nos elementos, como os vídeos do YouTube).
+        </p>
+        <p>
+         HTML é a estrutura do seu site, como se fosse o "esqueleto". Ele define:
+A organização do conteúdo, como títulos (h1), parágrafos (p), seções (section), entre outros.
+A incorporação de elementos externos, como vídeos do YouTube (iframe).
+Links e imagens, usados na seção de vídeos recomendados (a e img).
+        </p>
+        <p>
+ CSS cuida do design e da aparência do site, dando estilo e organização. No seu código, ele:
+Define cores e fontes, alterando o fundo (background), cor do texto (color) e fonte (font-family).
+Controla espaçamentos e posicionamento, usando margin, padding e display: flex; para alinhar os elementos corretamente.
+Cria efeitos interativos, como mudanças de opacidade e bordas ao passar o mouse nas imagens (hover).
+Melhora a experiência do usuário, com estilos mais atraentes e fáceis de visualizar
+        </p>
+        <p>
+          Embora não haja um código JS direto, ele está presente nos vídeos incorporados via (iframe). O YouTube usa JavaScript para:
+Carregar e controlar os vídeos, permitindo autoplay, pausa e reprodução.
+Garantir interatividade, como ajustar tamanho do player e permitir modo tela cheia.
+Gerenciar eventos, como exibir botões de compartilhamento e recomendação dentro do vídeo.
+        </p>
         <div class="modal-footer">
           <a href="https://airton2008.github.io/SandroCurioflix/">Ver o
             projeto ao vivo</a>
@@ -97,35 +119,90 @@
       </div>
     </div>
   </div>
+</div>
+</div>
+
  <!-- Modal 2 -->
   <div class="modal" id="modal2" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Como gostaria de Ver?</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-
-        <div class="modal-footer">
-          <a href="https://airton2008.github.io/joaozinho-e-o-megalodon/">Ver o
-            projeto ao vivo</a>
-          <a href="https://github.com/Airton2008/joaozinho-e-o-megalodon">Ver o código do projeto</a>
-        </div>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">joaozinho e o megalodon</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p>
+           O código usa três linguagens principais: JavaScript, CSS e HTML
+        </p>
+        <p>
+          HTML
+Estrutura toda a história e os caminhos possíveis como "etapas" (div.passo).
+Usa imagens e botões para criar a interação entre trechos da narrativa.
+Serve como base visual do jogo.
+        </p>
+        <p>
+          CSS
+ ele está estilizando os elementos .passo, .ativo e .btn-proximo.
+ Pode controlar transições entre telas, layout responsivo e tipografia (usando a fonte Bai Jamjuree do Google Fonts).
+        </p>
+        <p>
+          HTML
+          JavaScript
+Embora não esteja incluído neste trecho, é claro que o script.js manipula os botões data-proximo para trocar de “passo”.
+ele contem tem um script que esconde todos os passos e só mostra o atual.
+E garante com que o jogo evolua conforme as escolhas do jogador.
+        </p>
         <img
-    src="img/projeto-2.png" class="img-fluid w-100"
-    alt="Imagem representativa do projeto de uma biblioteca online"
-  />
+          src="img/projeto-2.png"
+          class="img-fluid w-100"
+          alt="Imagem representativa do projeto de uma biblioteca online"
+        />
+      </div>
+      <div class="modal-`footer`">
+        <a href="https://airton2008.github.io/joaozinho-e-o-megalodon/">Ver o projeto ao vivo</a>
+       <a href="https://github.com/Airton2008/joaozinho-e-o-megalodon">Ver o código do projeto</a>
       </div>
     </div>
-  </div> <!-- Modal 3 -->
+  </div>
+</div>
+
+ <!-- Modal 3 -->
   <div class="modal" id="modal3" tabindex="-1">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Como gostaria de Ver?</h5>
+          <h5 class="modal-title">Corrida</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-
+<div class="modal-body">
+        <p>
+           O código usa três linguagens principais: JavaScript, CSS e HTML
+        </p>
+        <p>
+          JavaScript (com a biblioteca p5.js)
+          Cria o canvas com createCanvas().
+          Controla a lógica do jogo: movimentação dos jogadores (xjogador1, etc.), verificação de vencedor, reações ao teclado (keyReleased()), etc.
+Desenha na tela com text(), rect() e background().
+Usa a biblioteca p5.js pra facilitar desenho e interação — bem mais intuitivo do que usar só JavaScript puro!
+        </p>
+        <p>
+          CSS (style.css)
+Define o visual da página fora do canvas:
+Remove margens/padding (margin: 0; padding: 0;) pra o jogo ocupar a tela certinho.
+Deixa o canvas em bloco com display: block pra não quebrar layout.
+        </p>
+        <p>
+          HTML
+          É o esqueleto da página:
+Carrega a biblioteca p5.js e o script do jogo (sketch.js).
+Define a estrutura da página com <head> e <body>.
+Pode ser usado pra adicionar outros elementos depois, como botões, placares, ou instruções de jogo.
+        </p>
         <div class="modal-footer">
           <a href="https://airton2008.github.io/corrida/">Ver o
             projeto ao vivo</a>
@@ -138,6 +215,8 @@
       </div>
     </div>
   </div>
+</div>
+
   <footer class="container">
     <h2>Entre em contato</h2>
     <div>
